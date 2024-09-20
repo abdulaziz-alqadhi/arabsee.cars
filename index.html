@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <title>البحر العربي للسيارات</title>
+</head>
+<body>
+    <!-- Start Header -->
+    <header id="header" class="fixed-top">
+        <div class="container">
+            <div class="row  text-center">
+                <div class="col-4" style="text-align: right;">
+                    <a id="email" class="fa-brands fa-at fa-2x fa-beat-fade rounded-5 px-3" href="mailto:admin@arabsea.example" target="_blank"></a>
+                    <a id="whatsapp" class="fa-brands fa-whatsapp fa-2x fa-beat-fade rounded-5 px-3" href="https://wa.me/+967771022014" target="_blank"></a>
+                </div>
+                <div class="col-4">
+                    <img style="width: 150px;" src="images/logo_new copy2.png" alt="">
+                </div>
+                <div class="col-4" style="text-align: left;">
+                    <button id="login" class="text-center rounded-5 px-3 my-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <a role="button">دخول</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- --------------------------------------------------------- -->
+
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-md bg-body-primary" style="background-color: rgba(234, 234, 234, 0.993);">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                <img src="/images/logo_new.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active   rounded-5 my-auto" aria-current="page"
+                            href="index.html">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">المدونة</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses.html">الدورات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">تواصل</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">التصميم</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">الأسعار</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            المراكز
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">المركز 1</a></li>
+                            <li><a class="dropdown-item" href="#">المركز 2</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">المراكز فرع 2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+     
+    <!-- --------------------------------------------------------- -->
+
+    <!-- Start breadcrumb -->
+    <nav class="m-4"  aria-label="breadcrumb breadcrumb-right">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active ms-auto" aria-current="page">الرئيسية</li>
+        </ol>
+    </nav>
+    <!-- End breadcrumb -->
+
+    <!-- --------------------------------------------------------- -->
+
+    <!-- Start Slider -->
+    <div class="slider">
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button style="background-color: #2e7b8b; height: 20px;" type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button style="background-color: #2e7b8b; height: 20px;" type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button style="background-color: #2e7b8b; height: 20px;" type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="overlay"></div>
+                        <div class="carousel-item active">
+                            <img src="images/BMW_M3_Competition_(G80)_IMG_4041.jpg" class="d-block w-100" alt="...">
+                            <div id="carouselExampleCaptions" class="carousel-caption d-none d-md-block">
+                                <h1>BMW M3 Competition G80 1</h1>
+                                <p>تأتي بمحرك <span dir="ltr">3.0 L S58B30T0 twin-turbo I6</span></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/BMW_M3_Competition_(G80)_IMG_4041.jpg" class="d-block w-100" alt="...">
+                            <div id="carouselExampleCaptions" class="carousel-caption d-none d-md-block">
+                                <h1>BMW M3 Competition G80 2</h1>
+                                <p>تأتي بناقل حركة أوتوماتيكي رياضي ذو ثمان سرعات</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/BMW_M3_Competition_(G80)_IMG_4041.jpg" class="d-block w-100" alt="...">
+                            <div id="carouselExampleCaptions" class="carousel-caption d-none d-md-block">
+                                <h1>BMW M3 Competition G80 3</h1>
+                                <p>تولد 357 كيلو وات مع عزم دوران 650د.د</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Slider -->
+
+    <!-- --------------------------------------------------------- -->
+
+    <!-- Start Features -->
+    <div class="features text-center">
+        <h2>مميزات السيارة</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <i class="fa-solid fa-biohazard fa-3x rounded-circle"></i>
+                    <h3>المحرك</h3>
+                    <p dir="ltr">3.0 L S58B30T0 twin-turbo I6</p>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <i class="fa-solid fa-gears fa-3x rounded-circle"></i>
+                    <h3>ناقل الحركة</h3>
+                    <p>ست سرعات ZF GS6-53BZ يدوي <br>
+                        (ماعدا نماذج xDrive)<br>
+                        ثمان سرعات ZF 8HP أوتوماتيكي</p>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <i class="fa-solid fa-car fa-3x rounded-circle"></i>
+                    <h3>الهيكل</h3>
+                    <p>أربعة أبواب<br>محرك أمامي<br>دفع رباعي</p>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <i class="fa-solid fa-clipboard-check fa-3x rounded-circle"></i>
+                    <h3>مميزات الفئة</h3>
+                    <p>تولد 357 كيلو وات<br>عزم دوران 650د.د<br>ناقل حركة أوتوماتيكي رياضي <br>ذو ثمان سرعات</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Features -->
+
+    <!-- --------------------------------------------------------- -->
+
+    <!-- Start Our Team -->
+    <div class="our-team text-center" id="team">
+        <h2>فريقنا</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card mb-5">
+                        <img src="images/person.png" alt="" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">محمد علي</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <a href="">
+                                <i role="button" class="fab fa-facebook-square fa-3x" style="color: blue;"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-twitter-square fa-3x" style="color: rgb(0, 170, 249);"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-instagram-square fa-3x" style="color: rgb(255, 0, 128);"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-linkedin fa-3x" style="color: blue;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card mb-5">
+                        <img src="images/person.png" alt="" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">محمد علي</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <a href="">
+                                <i role="button" class="fab fa-facebook-square fa-3x" style="color: blue;"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-twitter-square fa-3x" style="color: rgb(0, 170, 249);"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-instagram-square fa-3x" style="color: rgb(255, 0, 128);"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-linkedin fa-3x" style="color: blue;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card mb-5">
+                        <img src="images/person.png" alt="" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">محمد علي</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <a href="">
+                                <i role="button" class="fab fa-facebook-square fa-3x" style="color: blue;"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-twitter-square fa-3x" style="color: rgb(0, 170, 249);"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-instagram-square fa-3x" style="color: rgb(255, 0, 128);"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-linkedin fa-3x" style="color: blue;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card mb-5">
+                        <img src="images/person.png" alt="" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">محمد علي</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <a href="">
+                                <i role="button" class="fab fa-facebook-square fa-3x" style="color: blue;"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-twitter-square fa-3x" style="color: rgb(0, 170, 249);"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-instagram-square fa-3x" style="color: rgb(255, 0, 128);"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-linkedin fa-3x" style="color: blue;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Our Team -->
+
+    <!-- --------------------------------------------------------- -->
+
+    <!-- Start Statistics -->
+    <div class="statistics text-center">
+        <h2>إحصائيات</h2>
+        <!-- <div class="overlay"> -->
+        <div class="container">
+            <div class="row">
+                <div class="col-6 pt-4">
+                    <i class="fa-solid fa-car fa-3x rounded-circle"></i>
+                    <h3>سيارات متوفرة</h3>
+                    <p>1200</p>
+                </div>
+
+                <div class="col-6 pt-4">
+                    <i class="fa-solid fa-face-smile-beam fa-3x rounded-circle"></i>
+                    <h3>عملاء سعداء</h3>
+                    <p>1100</p>
+                </div>
+
+                <div class="col-6 pt-4">
+                    <i class="fas fa-car fa-3x rounded-circle"></i>
+                    <h3>سيارات فريدة متوفرة</h3>
+                    <p>200</p>
+                </div>
+
+                <div class="col-6 pt-4">
+                    <i class="fa-solid fa-users fa-3x rounded-circle"></i>
+                    <h3>عملاء مستمرين</h3>
+                    <p>1200</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- End Statistics -->
+
+    <!-- --------------------------------------------------------- -->
+
+    <!-- Start Customers -->
+    <div class="our-customers text-center">
+        <h2>عملائنا</h2>
+        <div class="container our-customers-b">
+            <div class="row">
+                <div class="col-lg col-md-4 col-sm-6">
+                    <img src="images/Ford_logo.webp" style="width:100%" alt="">
+                </div>
+                <div class="col-lg col-md-4 col-sm-6">
+                    <img src="images/Volkswagen_logo_2019.svg.webp" style="width:100%" alt="">
+                </div>
+                <div class="col-lg col-md-4 col-sm-6">
+                    <img src="images/audi-logo-2.png" style="width:100%" alt="">
+                </div>
+                <div class="col-lg col-md-4 col-sm-6">
+                    <img src="images/honda-logo-2.png" style="width:100%" alt="">
+                </div>
+                <div class="col-lg col-md-4 col-sm-6">
+                    <img src="images/skoda-logo.svg" style="width:100%" alt="">
+                </div>
+                <div class="col-lg col-md-4 col-sm-6">
+                    <img src="images/Ferrari-logo-2.png" style="width:80%" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Customers -->
+
+    <!-- --------------------------------------------------------- -->
+
+    <!-- Start Recent News -->
+    <div class="recent-news">
+        <h2>اخر الاخبار</h2>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card">
+                        <img src="images/BMW_M3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">عنوان الخبر</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural
+                                lead-in to additional
+                                content. This content is a little bit longer.</p>
+                            <a href="#" class="btn my-btn-primary">إقرأ الخبر</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">أخر تحديث قبل 3 دقائق</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card">
+                        <img src="images/BMW_M3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">عنوان الخبر</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural
+                                lead-in to additional
+                                content. This content is a little bit longer.</p>
+                            <a href="#" class="btn my-btn-primary">إقرأ الخبر</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">أخر تحديث قبل 3 دقائق</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card">
+                        <img src="images/BMW_M3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">عنوان الخبر</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural
+                                lead-in to additional
+                                content. This content is a little bit longer.</p>
+                            <a href="#" class="btn my-btn-primary">إقرأ الخبر</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">أخر تحديث قبل 3 دقائق</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card">
+                        <img src="images/BMW_M3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">عنوان الخبر</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural
+                                lead-in to additional
+                                content. This content is a little bit longer.</p>
+                            <a href="#" class="btn my-btn-primary">إقرأ الخبر</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">أخر تحديث قبل 3 دقائق</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card">
+                        <img src="images/BMW_M3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">عنوان الخبر</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural
+                                lead-in to additional
+                                content. This content is a little bit longer.</p>
+                            <a href="#" class="btn my-btn-primary">إقرأ الخبر</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">أخر تحديث قبل 3 دقائق</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card">
+                        <img src="images/BMW_M3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">عنوان الخبر</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural
+                                lead-in to additional
+                                content. This content is a little bit longer.</p>
+                            <a href="#" class="btn my-btn-primary">إقرأ الخبر</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">أخر تحديث قبل 3 دقائق</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Recent News -->
+
+    <!-- --------------------------------------------------------- -->
+    <!-- Start Modal -->
+    <!-- Button trigger modal -->
+    
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5 ms-auto" id="staticBackdropLabel" >تسجيل الدخول</h1>
+                <button type="button" class="btn-close ms-0" data-bs-dismiss="modal" aria-label="Close" aria-colindex=""></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">بريد إلكتروني</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">لن نقوم بمشاركة بريدك مع احد</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">كلمة المرور</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                  </form>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn my-btn-primary" data-bs-dismiss="modal">دخول</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إلغاء</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- End Modal -->
+
+    <!-- --------------------------------------------------------- -->
+
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h2>موقعنا</h2>
+                    <p style="padding-top: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nobis
+                        a omnis laudantium repellendus impedit doloribus ex quibusdam natus ipsam. Maiores alias cum
+                        molestiae aut!</p>
+                </div>
+                <div class="col-sm-4">
+                    <h2>روابط هامه</h2>
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="blog.html">المدونة</a></li>
+                        <li><a href="contact-us.html">تواصل</a></li>
+                        <li><a href="#team">فريقنا</a></li>
+                        <li><a href="#">مراكزنا</a></li>
+                        <li><a href="#">عن الشركة</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h2>تابعنا</h2>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i role="button" class="fab fa-facebook bg-light fa-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-twitter bg-light fa-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-linkedin bg-light fa-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-youtube bg-light fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer1 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>
+                        <a style="color: white;">كافة الحقوق محفوظة لشركة البحر العربي للسيارات&copy;2024</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer -->
+    
+    <!-- --------------------------------------------------------- -->
+     
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

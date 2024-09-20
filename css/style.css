@@ -1,0 +1,292 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+/* Start Comon */
+*{
+    font-family: 'Cairo', 'sans-serif';
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.my-btn-primary{
+    background-color: #2e7b8b; 
+    color: white;  
+    border-color: #2e7b8b;
+}
+.my-btn-primary:hover{
+    background-color: black;
+    color: #2e7b8b;
+    border-color: black;
+}
+
+.modal .btn-secondary:hover{
+    background-color: black;
+    color: #2e7b8b;
+    border-color: black;
+}
+.features, .our-team, .statistics, .our-customers, .recent-news{
+    margin-top: 75px;
+    border-bottom: 5px solid #2e7b8b;
+    padding-bottom: 20px;
+}
+.features i, .statistics i{
+    width: 100px;
+    height: 100px;
+    background-color: #2e7b8b;
+    line-height: 100px;
+    color: white;
+}
+.features h3, .statistics h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    align-content: center;
+}
+.features p, .our-team p {
+    line-height: 1.8;
+    border-radius: 10px;
+}
+.features h2, .our-team h2, .our-customers h2, .recent-news h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    background-color: #2e7b8b;
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+}
+
+/* End Comon */
+/* ---------------------------------------------------- */
+/* start Header */
+#header{
+    background-color: #2e7b8b77;
+    color: white;
+    height: 50px;
+    align-content: center;
+    line-height: 50px;
+}
+#header p{
+    float: left;
+}
+#login{
+    background-color: #2e7b8b;
+    line-height: 30px;
+    color: white;
+    border: none;
+}
+#login:hover{
+    background-color: black;
+    color: #2e7b8b;
+}
+#email{
+    background-color: #2e7b8b;
+    line-height: 30px;
+    color: black; 
+    border: none;
+}
+#email:hover{
+    color: white;
+    background-color: black;
+}
+#whatsapp{
+    background-color: #2e7b8b;
+    line-height: 30px;
+    color: rgb(0, 255, 0);
+}
+#whatsapp:hover{
+    color: white;
+    background-color: rgb(0, 255, 0);
+}
+.navbar{
+    margin-top: 50px;
+}
+/* End Header */
+/* ---------------------------------------------------- */
+/* Start Slider */
+#carouselExampleCaptions h1{
+    border-radius: 5px;
+    background-color: rgba(234, 234, 234, 0.5);
+    color: red;
+}
+#carouselExampleCaptions p{
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.4);
+    color: white;
+}
+.carousel-inner div img{
+    border-radius: 10px;
+}
+.carousel-indicators button span{
+    height: 40px;
+    background-color: red;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #2e7b8b76;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+}
+.carousel-caption {
+    z-index: 1;
+}
+/* End Slider */
+/* ---------------------------------------------------- */
+/* Start Features */
+.features p{
+    color: red;
+}
+.features{
+    border-radius: 34px;
+    background-color: #eee;
+}
+/* End Features */
+/* ---------------------------------------------------- */
+/* Start Our Team */
+.our-team{
+    border-radius: 34px;
+    background-color: #eee;
+    background-image: url('../images/background.jpg');
+}
+/* End Our Team */
+/* ---------------------------------------------------- */
+/* Start Statistics */
+.statistics{
+    border-radius: 34px;
+    width: 100%;
+    background-color: #2e7b8b77;
+    background-image: url('../images/BMW_M3.jpg');
+    background-blend-mode: color-burn;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.statistics h3{
+    color: white;
+}
+.statistics p{
+    color: white;
+    font-size: 70px;
+}
+.statistics h2{
+    font-size: 40px;
+    margin-bottom: 0px;
+    background-color: #2e7b8b;
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+}
+.statistics .overlay{
+    padding-top: 30px;
+    border-radius: 34px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    text-align: center;
+    background-color: #2e7b8b78;
+    width: 100%;
+    /* height: 381px; */
+}
+
+@media screen and (max-width: 576px) {
+    .statistics {
+        height: 700px;
+    }
+    .statistics .overlay{
+        height: 631px;
+    }
+    footer div div ul {
+        display: flex;
+        flex-direction: row;
+    }
+    footer div div ul{
+        justify-content: space-between;
+    }
+}
+/* End Statistics */
+/* ---------------------------------------------------- */
+/* Start Our Customers */
+.our-customers{
+    line-height: 200px;
+}
+.our-customers-b{
+    border-radius: 34px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: #eee;
+    background-image: url('../images/background.jpg');
+}
+/* End Our Customer */
+/* ---------------------------------------------------- */
+/* Start Recent News */
+.recent-news{
+    border-radius: 34px;
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.recent-news .my-btn-primary{
+    background-color: #2e7b8b;   
+    border-color: #2e7b8b;
+}
+.recent-news .my-btn-primary:hover{
+    background-color: black;
+    color: #2e7b8b;
+    border-color: black;
+}
+/* End Recent Newa */
+/* ---------------------------------------------------- */
+/* Start Footer */
+footer{
+    background-color: #2e7b8b;
+    margin-top: 75px;
+    padding-top: 30px;
+    background-image: url('../images/background.jpg');
+    background-blend-mode: multiply;
+}
+footer p{
+    color: white;
+}
+footer h2{
+    color: white;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: black;
+}
+footer i:hover{
+    color: #2e7b8b;
+}
+.fa-facebook{
+    color: blue;
+    width: min-content;
+    border-radius: 10px;
+}
+.fa-linkedin{
+    color: blue;
+    width: 30px;
+    border-radius: 10px;
+}
+.fa-twitter{
+    color: rgb(0, 170, 249);
+    width: min-content;
+    border-radius: 10px;
+}
+.fa-youtube{
+    color: red;
+    width: min-content;
+    border-radius: 10px;
+}
+footer ul li{
+    list-style: none;
+}
+.footer1{
+    background-color: #2e7b8b77;
+}
+/* End Footer */
+/* ---------------------------------------------------- */

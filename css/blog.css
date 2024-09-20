@@ -1,0 +1,31 @@
+.jumbotron{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    background-color: #eee;
+}
+.jumbotron .blog-info{
+    flex: 2;
+}
+.jumbotron .blog-image{
+    flex: 2;
+}
+.blog-info .btn-primary{
+    background-color: #2e7b8b;   
+    border-color: #2e7b8b;
+}
+.blog-info .btn-primary:hover{
+    background-color: black;
+    color: #2e7b8b;
+    border-color: black;
+}
+.cat a{
+    color: white;
+    background-color: #2e7b8b;
+    border-color: #2e7b8b;
+}
+.cat a:hover{
+    background-color: black;
+    color: #2e7b8b;
+}
